@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <fieldset>
+          <div>
+            <label>Nome</label>
+            <input type="text" name="Nome" />
+          </div>
+
+          <div>
+            <label>Sobrenome</label>
+            <input type="text" name="Sobrenome" />
+          </div>
+
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label>Senha</label>
+            <input type="password" name="senha" />
+          </div>
+
+          <div>
+            <label>Selecione algumas dessas:</label>
+          </div>
+
+          <div>
+            <label>
+              <input type="radio" name="Brasil" value="pais" checked/>Brasil
+            </label>
+            <label>
+              <input type="radio" name="Angola" value="pais" />Angola
+            </label>
+            <label>
+              <input type="radio" name="Canada" value="pais" />Canada
+            </label>
+          </div>
+          <br />
+
+          <div>
+            <label>Genero</label>
+          </div>
+          <div><input type="checkbox" name="masculino" />masculino</div>
+          <div><input type="checkbox" name="feminino" />feminino</div>
+          <br />
+
+          <div>
+            <label>Cidade:</label>
+            <select id="Estado">
+              <option value="#">Sao luis-MA</option>
+              <option value="#">Sao paulo-SP</option>
+              <option value="#">Rio janeiro-RJ</option>
+          </div> 
+        </fieldset>
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
